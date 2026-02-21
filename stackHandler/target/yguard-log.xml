@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yguard version="1.5">
+<!--
+  yGuard Bytecode Obfuscator, v4.1.1, a Product of yWorks GmbH - http://www.yworks.com
+
+  Logfile created on Fri Feb 20 17:44:41 CST 2026
+
+  Jar file to be obfuscated:           stackHandler-1.0.0-jar-with-dependencies.jar
+  Target Jar file for obfuscated code: stackHandler-1.0.0-jar-with-dependencies_obf.jar
+
+-->
+<!--
+  Memory in use after class data structure built: 21208696 bytes
+  Total memory available                        : 77594624 bytes
+-->
+<expose>
+  <class name="umg.edu.gt.handler.Main"/>
+  <method class="umg.edu.gt.handler.Main" name="void main(java.lang.String[])"/>
+</expose>
+<map>
+  <package name="umg.edu.gt.stack" map="A"/>
+  <class name="umg.edu.gt.stack.SymbolValidator" map="A"/>
+  <method class="umg.edu.gt.stack.SymbolValidator" name="boolean isPair(char, char)" map="A"/>
+  <method class="umg.edu.gt.stack.SymbolValidator" name="boolean validation(java.lang.String)" map="A"/>
+  <class name="umg.edu.gt.stack.Node" map="B"/>
+  <field class="umg.edu.gt.stack.Node" name="next" map="A"/>
+  <field class="umg.edu.gt.stack.Node" name="data" map="B"/>
+  <method class="umg.edu.gt.stack.Node" name="char getdata()" map="A"/>
+  <class name="umg.edu.gt.stack.Stack" map="C"/>
+  <field class="umg.edu.gt.stack.Stack" name="count" map="A"/>
+  <field class="umg.edu.gt.stack.Stack" name="top" map="B"/>
+  <field class="umg.edu.gt.stack.Stack" name="init" map="C"/>
+  <method class="umg.edu.gt.stack.Stack" name="umg.edu.gt.stack.Node getNodeInit()" map="A"/>
+  <method class="umg.edu.gt.stack.Stack" name="boolean isEmpty()" map="B"/>
+  <method class="umg.edu.gt.stack.Stack" name="char peek()" map="C"/>
+  <method class="umg.edu.gt.stack.Stack" name="int getcount()" map="D"/>
+  <method class="umg.edu.gt.stack.Stack" name="char pop()" map="E"/>
+  <method class="umg.edu.gt.stack.Stack" name="void push(char)" map="A"/>
+</map>
+</yguard>

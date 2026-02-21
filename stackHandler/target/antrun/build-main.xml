@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <taskdef classname="com.yworks.yguard.YGuardTask" name="yguard" classpathref="maven.compile.classpath" />
+    <yguard>
+      <inoutpair in="C:\Users\gleon\eclipse-workspace\stackHandler\target/stackHandler-1.0.0-jar-with-dependencies.jar" out="C:\Users\gleon\eclipse-workspace\stackHandler\target/stackHandler-1.0.0-jar-with-dependencies_obf.jar" />
+      <rename mainclass="umg.edu.gt.handler.Main" logfile="C:\Users\gleon\eclipse-workspace\stackHandler\target/yguard-log.xml"></rename>
+    </yguard>
+  </target>
+</project>
