@@ -50,7 +50,9 @@ java -jar target/stackHandler-1.0.0-jar-with-dependencies.jar "(a+b)*[c-d]" // a
 
 ## Ofuscación 
 El archivo del proyecto que se encuentra ofuscado fue realizado con la tecnología de YGuard. Puede ser decompilado con ingenieria inversa usando herramientas como CRF como lo hice en mi caso. 
-También es posible ejecutar el archivo ofuscado sin decompilar desde la terminal y sigue funcionando de manera correcta como el ejemplo en las evidencias o luego de instalarlo utilizando el comando
+Como se puede ver en las evidencia la ofuscación cambia como se pueden ver las variables a la hora de decompilar el proyecto, haciendo más complejo decifrar el sentido de cada una, pero en mi opinion con proyectos tan sencillos como este no afecta mucho debido a que se puede entender facilmente el uso de cada una de las variables en el codigo. Igualmente la ejecucion no tiene ningun problema por lo que
+puede convertirse en una buena practica util para mantener a salvo nuestra propiedad intelectual.
+También es posible ejecutar el archivo ofuscado sin decompilar desde la terminal y sigue funcionando de manera correcta como el ejemplo en las evidencias o luego de instalarlo utilizando el comando.
 ``` bash
 java -jar target/stackHandler-1.0.0-jar-with-dependencies_obf.jar "(a+b)" //Con un elemento propio
 ``` 
