@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <taskdef classname="com.yworks.yguard.YGuardTask" name="yguard" classpathref="maven.compile.classpath" />
+    <yguard>
+      <inoutpair in="C:\Users\gleon\eclipse-workspace\data-structure.stack\target/data-structure.stack-1.0.0.jar" out="C:\Users\gleon\eclipse-workspace\data-structure.stack\target/data-structure.stack-1.0.0_obf.jar" />
+      <rename logfile="C:\Users\gleon\eclipse-workspace\data-structure.stack\target/yguard-log.xml"></rename>
+    </yguard>
+  </target>
+</project>
